@@ -125,10 +125,10 @@ public class User {
                 + active + "]";
     }
 
-    public User(String name, String lastName, String adress, boolean active) {
+    public User(String name, String lastName, String address, boolean active) {
         this.name = name;
         this.lastName = lastName;
-        this.adress = adress;
+        this.adress = address;
         this.active = active;
     }
 
